@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.row {
+  background-color: black;
+}
+
+.content-text {
+  color: white;
+}
+
+.content-text {
+  padding: 5px 15px;
+  font-size: 15px;
+}
+
+.content {
+  display: inline-block;
+}
+
+.example {
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h1 {
+  font-size: 42px;
+  padding-bottom: 50px;
+}
+
+.example > h2 {
+  font-size: 32px;
+}
+
+.example-content {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #e7e9eb;
+}
+
+.code-example {
+  margin-top: 20px;
+  margin-left: 10px;
+  border-left: 5px solid green;
+  background-color: white;
+}
+
+.code-example > pre {
+  padding-left: 10px;
+}
+
+.content {
+  transition: background-color 0.3s ease;
+  background-color: black;
+}
+
+.content:hover {
+  background-color: white;
+  .content-text {
+    color: black;
+  }
+}

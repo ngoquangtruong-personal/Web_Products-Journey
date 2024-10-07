@@ -1,0 +1,24 @@
+/* Selector phần tử (Element Selector) */
+p {
+    color: blue;
+}
+
+/* Selector ID */
+#header {
+    background-color: gray;
+}
+
+/* Selector Class */
+.highlight {
+    font-weight: bold;
+}
+
+/* Selector Tiền tố (Descendant Selector) */
+div p {
+    font-style: italic;
+}
+
+/* Selector Con trực tiếp (Child Selector) */
+.content > p {
+    color: red;
+}

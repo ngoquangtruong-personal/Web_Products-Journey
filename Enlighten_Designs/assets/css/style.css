@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, Verdana, Sans-serif;
+    font-size: 12px;
+    color: #666666;
+    background: #ffffff;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 57px;
+    padding-right: 31px;
+}
+
+/* .hidden {
+    display: none;
+} */
+
+#page-container {
+    width: 760px;
+    margin: auto;
+}
+
+#main-nav {
+    height: 50px;
+    margin-left: 11px;
+}
+
+#main-nav dl {
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav dt {
+    float: left;
+}
+
+#main-nav dt a {
+    display: block;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+#main-nav dt#about a {
+    width: 71px;
+    background-image: url(about.gif);
+}
+
+#main-nav dt#services a {
+    width: 84px;
+    background-image: url(services.gif);
+}
+
+#main-nav dt#portfolio a {
+    width: 95px;
+    background-image: url(portfolio.gif);
+}
+
+#main-nav dt#contact a {
+    width: 106px;
+    background-image: url(contact.gif);
+}
+
+#header {
+    height: 150px;
+    background: #db6d16 url(../images/headers/about.jpg);
+}
+
+#sidebar-a {
+    float: right;
+    width: 280px;
+}
+
+#sidebar-a .padding {
+    padding: 25px;
+}
+
+#content {
+    margin-right: 280px;
+}
+
+#content .padding {
+    padding: 25px;
+}
+
+#content h2 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+#content p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+#footer {
+    clear: both;
+    font-family: tahoma;
+    font-size: 10px;
+    color: #c9c9c9;
+    border-top: 1px solid #efefef;
+    padding: 13px 25px;
+    line-height: 18px;
+}
+
+#footer a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    color: #db6d16;
+}
+
+#footer #altnav {
+    float: right;
+    width: 350px;
+    text-align: right;
+}
+
+
+
+

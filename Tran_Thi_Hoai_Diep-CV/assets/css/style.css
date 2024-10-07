@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.information {
+  padding: 40px 10px 10px 20px;
+  color: #ffffff;
+  background: #f4347e;
+}
+
+.information .inner-head,
+.inner-body {
+  display: flex;
+}
+
+.information .inner-left {
+  width: 30%;
+}
+
+.information .inner-left .inner-avatar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information .inner-left .inner-avatar img {
+  border: 5px solid #ffffff;
+  border-radius: 32px;
+  width: 60%;
+}
+
+.information .inner-right {
+  width: 70%;
+}
+
+.information .inner-head .inner-right .inner-title {
+  margin-bottom: 20px;
+  font-size: 44px;
+}
+
+.information .inner-right .inner-description {
+  margin-bottom: 18px;
+  font-size: 22px;
+}
+
+.information .inner-right .inner-list {
+  margin-bottom: 16px;
+}
+
+.information .inner-right .inner-list span {
+  display: inline-block;
+  width: 20px;
+}
+
+.information .inner-body .inner-right {
+    position: relative;
+}
+
+.information .inner-body .inner-background {
+  background: url(../images/background.jpg);
+  position: absolute;
+  width: 100%;
+}
+
+.information .inner-body .inner-background img {
+  object-fit: cover;
+}
+
+.information .inner-body .inner-wrapper {
+    position: relative;
+    z-index: 2;
+}

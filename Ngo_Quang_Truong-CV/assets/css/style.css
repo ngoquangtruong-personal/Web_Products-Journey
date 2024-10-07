@@ -1,0 +1,17 @@
+.one {
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  margin: 20px;
+}
+
+.two {
+    background-color: antiquewhite; padding: 20px; margin: 20px;
+}
+
+.three {
+    background-color: aquamarine; padding: 20px; margin: 20px;
+}
+
+.four {
+    background-color: lavender; padding: 20px; margin: 20px
+}

@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header,
+  .footer,
+  .it-campus-2023 {
+    line-height: 0;
+  }
+  
+  .header {
+    position: relative;
+  }
+  
+  .header .header-background img {
+    width: 100%;
+  }
+  
+  .header .menu {
+    color: #ee4d2d;
+    border-radius: 0 0 8px 8px;
+    width: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    top: 0;
+    position: absolute;
+  }
+  
+  .header .menu .menu-wrapper {
+    justify-content: space-evenly;
+    align-items: center;
+    height: 65px;
+    display: flex;
+  }
+  
+  .header .menu .menu-wrapper .menu-item:hover {
+    transform: translateY(3.5px);
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ee4d2d;
+    line-height: 1;
+  }
+  
+  .it-campus-2023 {
+    padding: 40px 0;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+  }
+  
+  .it-campus-2023 .inner-title {
+    line-height: 1;
+    color: #ee4d2d;
+    margin-bottom: 8px;
+  }
+  
+  .it-campus-2023 .inner-description {
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-top {
+    display: flex;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-top .inner-image-left {
+    width: 60%;
+    margin-right: 5px;
+    position: relative;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-top .inner-image-left img.singer {
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-top .inner-image-left img.title {
+    position: absolute;
+    top: 12.5%;
+    left: 1.5%;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-top .inner-image-right {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    gap: 2.5px;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-top .inner-image-right img {
+    width: 49.6%;
+    border: 1px solid #4264ae;
+  }
+  
+  .it-campus-2023
+    .inner-images
+    .inner-image-top
+    .inner-image-right
+    img:nth-child(3),
+  .it-campus-2023
+    .inner-images
+    .inner-image-top
+    .inner-image-right
+    img:nth-child(4) {
+    margin-top: 7.5px;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-bottom {
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-bottom img:nth-child(1) {
+    position: absolute;
+    left: 1.5%;
+    top: 11%;
+  }
+  
+  .it-campus-2023 .inner-images .inner-image-bottom img:nth-child(2) {
+    width: 100%;
+  }
+  
+  .footer .footer-background img {
+    width: 100%;
+  }
