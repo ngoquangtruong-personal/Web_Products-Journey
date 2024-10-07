@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 14px Arial;
+  color: #000;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.full-container,
+.container {
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.full-container {
+  width: 100%;
+}
+
+.container {
+  width: 940px;
+}
+
+.row {
+  width: 100%;
+  overflow: auto;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+}
+
+.col-1 {
+  width: 16.66666667%;
+}
+
+.col-2 {
+  width: 33.33333%;
+}
+
+.col-3 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 66.66667%;
+}
+
+.col-5 {
+  width: 83.33333%;
+}
+
+.col-6 {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left::after,
+.float-right::after {
+  clear: both;
+}
+
+.padding-left {
+  padding-left: 10px;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.header {
+  height: 706px;
+  background-image: url(../images/Header_background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo,
+.hotline {
+  height: 200px;
+}
+
+.logo {
+  background-image: url(../images/Logo.png);
+  background-repeat: no-repeat;
+}
+
+.hotline > p {
+  font: Verdana;
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  margin-top: 80px;
+  padding: 10px;
+  background-color: #49a333;
+  border-radius: 7px;
+}
+
+.register-form {
+  width: 360px;
+  height: 450px;
+  margin-top: 50px;
+  padding: 20px;
+  border: solid 10px #ced086;
+  background-color: #678b37;
+  color: #fff;
+}
+
+.register-form h1 {
+  font-size: 230%;
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+.register-form p {
+  font-size: 120%;
+  text-align: center;
+  font-style: italic;
+  padding: 2px 0;
+}
+
+.register-form input {
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: solid 1px rgba(204, 204, 204, 0.2);
+  border-top: solid 1px rgba(255, 255, 255, 0.5);
+  margin: 5px;
+  padding: 5px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.register-form input::placeholder {
+  color: #fff;
+}
+
+.register-form button {
+  display: block;
+  background-color: #c5d301;
+  padding: 15px 20px;
+  border: none;
+  font-size: 110%;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.section-1 {
+  margin: 20px auto;
+}
+
+.section-1 h1 {
+  color: #2d8c3e;
+  font-weight: bold;
+  text-align: center;
+  font-size: 120%;
+  margin: 10px 0 20px 0;
+}
+
+.section-1 p {
+  font-size: 120%;
+  text-align: justify;
+}
+.section-1 img {
+  width: 95%;
+  border: dashed 2px #2d8c3e;
+  border-radius: 20px;
+}
+
+.section-2 {
+  background-color: #81af53;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.section-2 h1 {
+  font-size: 140%;
+  font-weight: bold;
+  margin: 20px 0;
+  border-bottom: solid 1px #fff;
+}
+
+.section-2 p {
+  text-align: justify;
+}
+.section-2 img {
+  width: 80%;
+  margin: 20px 0;
+}
+
+.section-3 {
+  background-color: #dce085;
+  padding-bottom: 40px;
+}
+.section-3 h1 {
+    font-size: 170%;
+    color: #196530;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+.section-3 input {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 90%;
+    padding: 5px;
+    border: none;
+}
+
+.section-3 button {
+    width: 100%;
+    background-color: #2A6E01;
+    padding: 5px;
+    border: none;
+    color: #fff;
+}

@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#000;
+}
+:root {
+    --container-width: 1150px;
+    --container-left-width:750px;
+    --container-right-width: 360px;
+    --color-orange: #FAA21B;
+    --color-gray: #646464;
+}
+body div {
+    /* Định dạng này chỉ để test layout */
+    border:1px solid black;
+    margin:5px;
+    padding:5px;
+}
+img {
+    width:100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+.clearfix {
+    clear: both;
+}
+
+.container {
+    
+}
+.container-full {
+    
+}
+.bg-orange {
+    
+}
+.bg-black {
+    
+}
+
+/* HEADER */
+#header {    
+
+}
+#logo {
+    
+}
+#hashtag {
+    
+}
+#hashtag ul {    
+    
+}
+#hashtag li {
+    
+}
+#hashtag span {
+    
+}
+
+/* MENU */
+#menu {
+    
+}
+#menu > ul {
+    
+}
+#menu > ul > li {
+    
+}
+#menu > ul > li:hover {
+    
+}
+#menu a {
+    
+}
+
+/* CONTENT LAYOUT */
+.content-left {
+    
+}
+.content-right {
+    
+}
+.row {
+    
+}
+.column-1, .column-2, .column-3 {
+    
+}
+.column-1 {
+    
+}
+.column-2 {
+    
+}
+.column-3 {
+    
+}
+
+/* FOOTER */
+#footer {
+    
+}
+
+/* ANOTHER STYLES */
+.section-title {
+    
+}
+
